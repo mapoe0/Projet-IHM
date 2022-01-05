@@ -92,7 +92,7 @@ namespace WindowsFormsApp2
                     label1.Text = bone.name;
                     bonesPictureBox.Image = handList[indexPoly].imageBitmap;
 
-                }
+                }//tes comit
                 else
                 {
                     bonesPictureBox.Image = handBitmap;
