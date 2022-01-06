@@ -69,6 +69,7 @@ namespace WindowsFormsApp2
             this.bonesPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bonesPictureBox.TabIndex = 0;
             this.bonesPictureBox.TabStop = false;
+            this.bonesPictureBox.Paint += new System.Windows.Forms.PaintEventHandler(this.bonesPictureBox_Paint);
             this.bonesPictureBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.bonesPictureBox_MouseClick);
             this.bonesPictureBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.bonesPictureBox_MouseMove);
             // 

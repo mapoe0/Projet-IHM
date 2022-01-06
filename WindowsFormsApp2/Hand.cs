@@ -29,7 +29,7 @@ namespace WindowsFormsApp2
         private void Hand_Load(object sender, EventArgs e)
         {
             if (section.Equals("main"))
-            { handBitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.Main_originale); }
+            { handBitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.main_originale); }
             else if (section.Equals(""))
             {
 
@@ -101,15 +101,9 @@ namespace WindowsFormsApp2
             {
                 if (IsInPolygon(bone.poly, new Point(e.X, e.Y)))
                 {
-                    
-                    int indexPoly = handList.IndexOf(bone);
                     ChangeImage(true, bone.imageBitmap, bone.name);
+                }
 
-                }
-                else
-                {
-                    
-                }
             }   
         }
         private void ChangeImage(bool b, Bitmap bitmap,String boneName)
@@ -118,6 +112,10 @@ namespace WindowsFormsApp2
             {
                 bonesPictureBox.Image = bitmap;
                 label1.Text = boneName;
+            }
+            else
+            {
+                
             }
         }
 
@@ -131,6 +129,15 @@ namespace WindowsFormsApp2
             {            
                 master.Close();
             }
+        }
+
+        private void bonesPictureBox_Paint(object sender, PaintEventArgs e)
+        {
+            /*SolidBrush solidBrush = new SolidBrush(Color.Red);
+            foreach (Bone bone in handList)
+            {
+                e.Graphics.FillPolygon(solidBrush, bone.poly);
+            }*/
         }
     }
 }

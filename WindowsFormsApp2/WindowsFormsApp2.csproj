@@ -101,15 +101,6 @@
     <None Include="Resources\Main_originale.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\os_métacarpien_1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\phalange_proximale_3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\phalange_proximale_4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\back-button.png" />
   </ItemGroup>
   <ItemGroup>
@@ -117,6 +108,90 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Squelette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capitatum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_distale_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_distale_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_distale_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_distale_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_moyenne_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_moyenne_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_moyenne_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_moyenne_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_proximale_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_proximale_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_proximale_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_proximale_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_proximale_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scaphoide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trapeze.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trapezoide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triquetum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hamatym.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lunatum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_metacarpien_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_metacarpien_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_metacarpien_3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_metacarpien_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_metacarpien_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phalange_distale_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_originale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_metacarpien_2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

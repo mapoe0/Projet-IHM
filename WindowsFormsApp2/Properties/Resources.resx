@@ -127,13 +127,91 @@
   <data name="back-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Main_originale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Main_originale.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Squelette_main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Squelette_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Squelette" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Squelette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Capitatum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Capitatum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hamatym" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hamatym.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lunatum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lunatum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main_originale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main_originale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_metacarpien_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\os_metacarpien_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_metacarpien_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\os_metacarpien_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_metacarpien_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\os_metacarpien_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_metacarpien_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\os_metacarpien_3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="os_metacarpien_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\os_metacarpien_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_distale_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_distale_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_distale_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_distale_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_distale_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_distale_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_distale_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_distale_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_distale_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_distale_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_moyenne_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_moyenne_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_moyenne_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_moyenne_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_moyenne_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_moyenne_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_moyenne_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_moyenne_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_proximale_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_proximale_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_proximale_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_proximale_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_proximale_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_proximale_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_proximale_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_proximale_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phalange_proximale_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phalange_proximale_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scaphoide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scaphoide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trapeze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trapeze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trapezoide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trapezoide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Triquetum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triquetum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
