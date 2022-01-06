@@ -38,7 +38,7 @@ namespace WindowsFormsApp2
             {
                 if(IsInPolygon(bone.poly,new Point(e.X, e.Y)))
                 {
-                    Hand hand = new Hand(bone.name);
+                    Hand hand = new Hand(bone.name, this);
                     this.Hide();
                     hand.Show();
                 }
@@ -92,10 +92,12 @@ namespace WindowsFormsApp2
                 if(IsInPolygon(bone.poly,new Point(e.X, e.Y)))
                 {
                     pictureBox1.Image = bone.imageBitmap;
+                    sectionLabel.Text = bone.name + " clickez pour découvrir";
                 }
                 else
                 {
                     pictureBox1.Image = new Bitmap(WindowsFormsApp2.Properties.Resources.Squelette);
+                    sectionLabel.Text = "";
                 }
             }
         }

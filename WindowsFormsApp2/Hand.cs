@@ -12,10 +12,12 @@ namespace WindowsFormsApp2
         List<Bone> handList;
         String section;
         Bitmap handBitmap;
-        public Hand(String section)
+        Form1 master; // on demande à recevoir le master en paramètre pour pouvoir le fermer si l'utilisateur ferme le formulaire Hand  
+        public Hand(String section, Form1 master)
         {
             InitializeComponent();
             this.section = section;
+            this.master = master;
             Data data = new Data();
             handList = data.GetBonesPart("main");
             foreach(Bone bone in handList)
@@ -87,7 +89,8 @@ namespace WindowsFormsApp2
 
         private void backImageBtn_Click(object sender, EventArgs e)
         {
-            
+            master.Show();
+            this.Close();
         }
 
         private void bonesPictureBox_MouseMove(object sender, MouseEventArgs e)
@@ -114,6 +117,11 @@ namespace WindowsFormsApp2
                 bonesPictureBox.Image = bitmap;
                 label1.Text = boneName;
             }
+        }
+
+        private void Hand_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            master.Close(); // si on fait pas ça le Form 1 ne se ferme pas
         }
     }
 }

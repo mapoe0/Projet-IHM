@@ -40,9 +40,10 @@ namespace WindowsFormsApp2
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(336, 556);
+            this.label1.Location = new System.Drawing.Point(252, 452);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(353, 38);
+            this.label1.Size = new System.Drawing.Size(265, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -50,9 +51,10 @@ namespace WindowsFormsApp2
             // backImageBtn
             // 
             this.backImageBtn.Image = global::WindowsFormsApp2.Properties.Resources.back_button;
-            this.backImageBtn.Location = new System.Drawing.Point(33, 31);
+            this.backImageBtn.Location = new System.Drawing.Point(25, 25);
+            this.backImageBtn.Margin = new System.Windows.Forms.Padding(2);
             this.backImageBtn.Name = "backImageBtn";
-            this.backImageBtn.Size = new System.Drawing.Size(38, 47);
+            this.backImageBtn.Size = new System.Drawing.Size(28, 38);
             this.backImageBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.backImageBtn.TabIndex = 2;
             this.backImageBtn.TabStop = false;
@@ -60,9 +62,10 @@ namespace WindowsFormsApp2
             // 
             // bonesPictureBox
             // 
-            this.bonesPictureBox.Location = new System.Drawing.Point(336, 88);
+            this.bonesPictureBox.Location = new System.Drawing.Point(252, 72);
+            this.bonesPictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.bonesPictureBox.Name = "bonesPictureBox";
-            this.bonesPictureBox.Size = new System.Drawing.Size(353, 424);
+            this.bonesPictureBox.Size = new System.Drawing.Size(265, 344);
             this.bonesPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bonesPictureBox.TabIndex = 0;
             this.bonesPictureBox.TabStop = false;
@@ -71,15 +74,17 @@ namespace WindowsFormsApp2
             // 
             // Hand
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1032, 703);
+            this.ClientSize = new System.Drawing.Size(774, 571);
             this.Controls.Add(this.backImageBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bonesPictureBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Hand";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Hand_FormClosed);
             this.Load += new System.EventHandler(this.Hand_Load);
             ((System.ComponentModel.ISupportInitialize)(this.backImageBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bonesPictureBox)).EndInit();
