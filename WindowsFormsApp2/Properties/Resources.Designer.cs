@@ -93,36 +93,6 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap os_métacarpien_1 {
-            get {
-                object obj = ResourceManager.GetObject("os_métacarpien_1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap phalange_proximale_3 {
-            get {
-                object obj = ResourceManager.GetObject("phalange_proximale_3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap phalange_proximale_4 {
-            get {
-                object obj = ResourceManager.GetObject("phalange_proximale_4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap skeleton {
             get {
                 object obj = ResourceManager.GetObject("skeleton", resourceCulture);

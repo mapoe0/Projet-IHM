@@ -12,7 +12,8 @@ namespace WindowsFormsApp2
         List<Bone> handList;
         String section;
         Bitmap handBitmap;
-        Form1 master; // on demande à recevoir le master en paramètre pour pouvoir le fermer si l'utilisateur ferme le formulaire Hand  
+        Form1 master; // on demande à recevoir le master en paramètre pour pouvoir le fermer si l'utilisateur ferme le formulaire Hand
+        bool btnClick = false; // technique de gitan pour revenir en arrière
         public Hand(String section, Form1 master)
         {
             InitializeComponent();
@@ -89,8 +90,9 @@ namespace WindowsFormsApp2
 
         private void backImageBtn_Click(object sender, EventArgs e)
         {
-            master.Show();
+            btnClick = true;
             this.Close();
+            
         }
 
         private void bonesPictureBox_MouseMove(object sender, MouseEventArgs e)
@@ -121,7 +123,14 @@ namespace WindowsFormsApp2
 
         private void Hand_FormClosed(object sender, FormClosedEventArgs e)
         {
-            master.Close(); // si on fait pas ça le Form 1 ne se ferme pas
+            if (btnClick == true)
+            {
+                master.Show(); // si on fait pas ça le Form 1 ne se ferme pas
+            }
+            else
+            {            
+                master.Close();
+            }
         }
     }
 }

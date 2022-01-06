@@ -23,7 +23,7 @@ namespace WindowsFormsApp2
             List<Bone> bonesList = new List<Bone> { };
             if (part == "main")
             {
-                Bitmap bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.os_métacarpien_1);
+                Bitmap bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.Main_originale);
                 Bone bone;
                 bone = new Bone("os métacarpien", new Point[] {
                 new Point(94,183),
@@ -33,7 +33,7 @@ namespace WindowsFormsApp2
             }, bitmap
                 );
                 bonesList.Add(bone);
-                bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.phalange_proximale_4);
+                bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.Main_originale);
                 bone = new Bone("phalange proximale", new Point[]
                 {
                 new Point(227,151),
@@ -43,7 +43,7 @@ namespace WindowsFormsApp2
                 }, bitmap);
 
                 bonesList.Add(bone);
-                bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.phalange_proximale_3);
+                bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.Main_originale);
                 bone = new Bone("phalange proximale", new Point[]
                 {
                 new Point(183,107),
