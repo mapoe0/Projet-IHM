@@ -13,7 +13,7 @@ namespace WindowsFormsApp2
     {
         public String name; // nom de l'os
         public Point[] poly; // polygone associé sur l'image
-        public Bitmap imageBitmap;
+        public Bitmap imageBitmap; // image associé
         public Bone(String name, Point[] poly, Bitmap imageBitmap)
         {
             this.name = name;

@@ -67,6 +67,7 @@ namespace WindowsFormsApp2
             this.bonesPictureBox.TabIndex = 0;
             this.bonesPictureBox.TabStop = false;
             this.bonesPictureBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.bonesPictureBox_MouseClick);
+            this.bonesPictureBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.bonesPictureBox_MouseMove);
             // 
             // Hand
             // 
