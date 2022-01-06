@@ -135,6 +135,60 @@ new Point(198,281),
 new Point(181,269),
                 }, bitmap);
                 bonesList.Add(bone);
+
+                // phalanges distales
+                bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.phalange_distale_0);
+                bone = new Bone("Phalange distale 0 ", new Point[]
+                {
+                    new Point(9,144),
+new Point(28,146),
+new Point(32,180),
+new Point(15,183),
+                }, bitmap);
+                bonesList.Add(bone);
+
+                bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.phalange_distale_1);
+                bone = new Bone("Phalange distale 1 ", new Point[]
+                {
+                   new Point(67,34),
+new Point(82,34),
+new Point(86,64),
+new Point(72,66),
+
+                }, bitmap);
+                bonesList.Add(bone);
+
+                bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.phalange_distale_2);
+                bone = new Bone("Phalange distale 2 ", new Point[]
+                {
+                    new Point(129,11),
+new Point(140,12),
+new Point(143,45),
+new Point(131,44),
+                }, bitmap);
+                bonesList.Add(bone);
+
+                bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.phalange_distale_3);
+                bone = new Bone("Phalange distale 3 ", new Point[]
+                {
+                    new Point(193,22),
+new Point(208,22),
+new Point(207,56),
+new Point(191,56),
+                }, bitmap);
+                bonesList.Add(bone);
+
+                bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.phalange_distale_4);
+                bone = new Bone("Phalange distale 4 ", new Point[]
+                {
+                    new Point(243,71),
+new Point(253,72),
+new Point(252,101),
+new Point(233,100),
+
+                }, bitmap);
+                bonesList.Add(bone);
+
                 /*
                  * 
                 bitmap = new Bitmap(WindowsFormsApp2.Properties.Resources);
