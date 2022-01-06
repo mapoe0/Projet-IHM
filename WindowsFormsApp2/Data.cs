@@ -15,7 +15,7 @@ namespace WindowsFormsApp2
    
         }
         /**
-         * 
+         * test comit
          */
         public List<Bone> GetBonesPart(String part)
         {
