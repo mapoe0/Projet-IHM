@@ -193,5 +193,11 @@
   <ItemGroup>
     <None Include="Resources\os_metacarpien_2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pied.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Squelette_pied.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

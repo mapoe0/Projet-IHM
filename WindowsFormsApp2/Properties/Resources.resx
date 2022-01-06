@@ -121,9 +121,6 @@
   <data name="bones" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bones.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="skeleton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\skeleton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="back-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -202,8 +199,14 @@
   <data name="phalange_proximale_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phalange_proximale_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pied" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pied.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Scaphoide" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Scaphoide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squelette_pied" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squelette_pied.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Trapeze" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Trapeze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

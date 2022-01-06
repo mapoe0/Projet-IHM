@@ -313,9 +313,9 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Scaphoide {
+        internal static System.Drawing.Bitmap pied {
             get {
-                object obj = ResourceManager.GetObject("Scaphoide", resourceCulture);
+                object obj = ResourceManager.GetObject("pied", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +323,9 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap skeleton {
+        internal static System.Drawing.Bitmap Scaphoide {
             get {
-                object obj = ResourceManager.GetObject("skeleton", resourceCulture);
+                object obj = ResourceManager.GetObject("Scaphoide", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -346,6 +346,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap Squelette_main {
             get {
                 object obj = ResourceManager.GetObject("Squelette_main", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Squelette_pied {
+            get {
+                object obj = ResourceManager.GetObject("Squelette_pied", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

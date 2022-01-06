@@ -91,14 +91,24 @@ namespace WindowsFormsApp2
             {
                 if(IsInPolygon(bone.poly,new Point(e.X, e.Y)))
                 {
-                    pictureBox1.Image = bone.imageBitmap;
-                    sectionLabel.Text = bone.name + " clickez pour découvrir";
+                    ChangeImage(true, bone.imageBitmap, bone.name);
                 }
                 else
                 {
-                    pictureBox1.Image = new Bitmap(WindowsFormsApp2.Properties.Resources.Squelette);
-                    sectionLabel.Text = "";
+                    
                 }
+            }
+        }
+        private void ChangeImage(bool b, Bitmap bitmap, String boneName)
+        {
+            if (b)
+            {
+                pictureBox1.Image = bitmap;
+                sectionLabel.Text = boneName;
+            }
+            else
+            {
+                
             }
         }
         // pour dessiner les poly afin de vérifier

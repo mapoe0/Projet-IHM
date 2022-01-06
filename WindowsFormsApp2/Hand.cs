@@ -11,7 +11,7 @@ namespace WindowsFormsApp2
     {
         List<Bone> handList;
         String section;
-        Bitmap handBitmap;
+        Bitmap imageBitmap;
         Form1 master; // on demande à recevoir le master en paramètre pour pouvoir le fermer si l'utilisateur ferme le formulaire Hand
         bool btnClick = false; // technique de gitan pour revenir en arrière
         public Hand(String section, Form1 master)
@@ -20,7 +20,7 @@ namespace WindowsFormsApp2
             this.section = section;
             this.master = master;
             Data data = new Data();
-            handList = data.GetBonesPart("main");
+            handList = data.GetBonesPart(section);
             foreach(Bone bone in handList)
             {
                 Console.WriteLine(bone.name);
@@ -29,12 +29,13 @@ namespace WindowsFormsApp2
         private void Hand_Load(object sender, EventArgs e)
         {
             if (section.Equals("main"))
-            { handBitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.main_originale); }
-            else if (section.Equals(""))
+            { imageBitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.main_originale); }
+            else if (section.Equals("pied"))
             {
-
+                imageBitmap = new Bitmap(WindowsFormsApp2.Properties.Resources.pied);
+                label1.Text = "coming soon...";
             }
-            bonesPictureBox.Image = handBitmap;
+            bonesPictureBox.Image = imageBitmap;
             
 
         }
